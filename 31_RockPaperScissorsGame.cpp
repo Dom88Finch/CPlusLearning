@@ -23,6 +23,9 @@ std::string checkWinner(int playerA){
     else if(playerA == 3  && playerB == 2){
         winner = "You Win!! PlayerA";
     }
+    else if(playerA = playerB){
+        winner == "Its a TIE";
+    }
     else{
         winner = "You Lose !! \n PlayerB Wins";
     }
