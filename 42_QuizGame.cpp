@@ -3,6 +3,7 @@
 
 int checkArray(int userInput,int correctValue);
 int main() {
+    
 
     /*
     Create a Quiz Game
