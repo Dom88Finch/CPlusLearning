@@ -3,7 +3,7 @@
 
 int checkArray(int userInput,int correctValue);
 int main() {
-    
+
 
     /*
     Create a Quiz Game
@@ -39,21 +39,23 @@ int main() {
         }
         std::cout << "\nPlease select an option (1 or 2): ";
         std::cin >> usersInput;
+        
+        currentPoints += checkArray(usersInput,correctAnswers[i]);
         std::cin.clear();
         fflush(stdin);
-        currentPoints += checkArray(usersInput,correctAnswers[i]);
-
 
     }
-    std::cout << "You got " << currentPoints << "out of " << rows;
+    std::cout << "You got " << currentPoints << " out of " << rows;
 }  
 
 int checkArray(int userInput,int correctValue){
     int score = 0;
-    if(userInput = correctValue){
+    if(userInput == correctValue){
+        std::cout << "Correct !!";
         return score + 1;
     }
     else{
+        std::cout << "\nIncorrect !!";
         return score;
     }
 }
