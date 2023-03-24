@@ -3,8 +3,6 @@
 
 int main() {
 
-
-
     // Iterating over the elements of an array 
 
     std::string employees[] = {"Jose", "Micheal", "Jake"};
@@ -13,12 +11,6 @@ int main() {
 
         std::cout << employees[i] <<"\n";
     }
-
-
-
-
-
-
 
     return 0;
 }

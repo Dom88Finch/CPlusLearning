@@ -4,8 +4,6 @@
 int searchArray(int array[], int size, int element);
 int main() {
 
-
-
     // searching our array 
     int numbers[] = {1,2,3,4,5,6,7,8,9,10};
     int size = sizeof(numbers)/sizeof(numbers[0]);
@@ -27,7 +25,6 @@ int searchArray(int array[], int size, int element){
         if(array[i] == element){
             return i;
         }
-    
     }
     // -1 stands for not found
     return -1;

@@ -4,7 +4,6 @@
 int main() {
 
     // Fill function fill() - fills a range of elements with a specified value
-
     const int arrayFoodSize = 18;
     std::string foods[arrayFoodSize];
 

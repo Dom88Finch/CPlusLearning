@@ -3,8 +3,6 @@
 
 int main() {
 
-
-
     std::string foods[5];
     int size = sizeof(foods)/sizeof(foods[0]);
     // temporary variable used and then checked before updating our array 

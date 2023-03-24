@@ -10,14 +10,11 @@ int main(){
     int array[] = {3,4,6,1,3,77,3,7,44,9};
     int size = sizeof(array)/sizeof(array[0]);
 
-
     // sort reverse order 
     sortArray(array, size);
 
     for(int element : array){
-
-        std::cout << element <<" \n";
-        
+        std::cout << element <<" \n"; 
     }
 
    

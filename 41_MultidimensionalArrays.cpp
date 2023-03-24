@@ -10,7 +10,6 @@ int main() {
                               {"Batman", "Shazam", "Superman"},
                               {"Thor", "Iron Man", "Watchmen" }};
 
-
     std::cout << films[0][1] << " ";
 
 

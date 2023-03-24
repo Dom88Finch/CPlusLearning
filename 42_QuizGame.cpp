@@ -27,7 +27,7 @@ int main() {
 
     int usersInput;
     
- 
+  
     int currentPoints = 0;
     std::cout << "Welcome to our Quiz Game\n We wil be testing your world knowledge!!\n\n";
     for(int i = 0; i < rows; i++){
