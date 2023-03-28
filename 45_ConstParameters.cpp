@@ -28,8 +28,11 @@ int main() {
 // by using `const`, we ensure that we cannot modify the variables
 void printInfo(const std::string name, const int age){
 
+    /* // The following will bring un an error if the `const` is active
     name = "wono";
     age = 193;
+
+    */
 
     std::cout << name <<'\n';
     std::cout << age << '\n';

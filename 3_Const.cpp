@@ -7,10 +7,12 @@ int main() {
    
 
     // PI = 420;
-    double radius = 10;
+    int radius = 101;
     double circumference = 2 * PI * radius;
 
     std::cout << circumference << "cm";
+
+    std::cout << radius % 10;
 
     return 0;
 
