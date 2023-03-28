@@ -4,7 +4,10 @@
 int main() {
 
 
+    // Memory address - location in memory where data is stored
+    //                 this can be accessed with `&` (address of operator)
 
+    
 
 
 
